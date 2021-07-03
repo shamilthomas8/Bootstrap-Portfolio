@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="port.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>My portfolio</title>
+    <style>
+  
+body {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-color: rgb(17, 16, 16) !important;
+}
+
+.carousel{
+  margin-top: 50px;
+}
+.carousel-inner{
+  height: 300px;
+  background-color: rgb(44, 45, 48);
+}
+.carousel-caption{
+  color: #fff;
+  top: 50%;
+}
+ol.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  width: 33%;
+  height: 10px;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+}
+
+ol.carousel-indicators li.active {
+  background: rgb(31, 90, 163);
+}
+    </style>
+</head>
+<body>
+    <div class="pg3">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">            
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="port.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="edu.html">Academic Qualifications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">My Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="skil.html">Skills And Achievements</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cont.html">Contact Me</a>
+            </li>
+          </ul>
+ </nav>
+
+
+<div class="container mt-3">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption mt-5">
+              <h3>BLOCKCHAIN</h3>
+              <p style="text-align: left;">- This project also implements the concept of proof of work, which is one of the main process used to make blockchain secure.
+              <br> - Implemented in C programming language</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption mt-5">
+              <h3>E-SERVEUR</h3>
+              <p style="text-align: left;">- A Saas project that can replace waiters in hotels or restaurants to take orders from customers and also pay bills</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption mt-5">
+              <h3>STUDENT REGISTRY</h3>
+              <p style="text-align: left;">- Student registry application using python<br>- New students can be added and existing students can be edited or removed</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption mt-5">
+              <h3>CRIME REPORTING WEBAPP</h3>
+              <p style="text-align: left;">- Using PHP and SQL<br>
+                - Allows locals to report crime to authorities easily and efficiently</p>
+            </div>
+          </div>
+         
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+</div>
+     
+
+
+
+    
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>

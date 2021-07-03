@@ -1,0 +1,44 @@
+img {
+  width: 40%;
+  height: 5%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-color: rgb(17, 16, 16) !important;
+}
+h1,
+h2,
+p {
+  color: beige;
+}
+h3 {
+  text-align: center;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
