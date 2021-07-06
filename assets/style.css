@@ -7,3 +7,7 @@ a:hover {
 .active:hover {
   color: white !important;
 }
+
+.shadow {
+  box-shadow: 0 4px 6px 0 rgb(0, 0, 0) !important;
+}
